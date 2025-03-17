@@ -10,7 +10,7 @@ function Menu(props){
         styleArr.push(e.target.id);
         for(let i=0; i<styleArr.length; i++){
             document.getElementById(styleArr[i]).style.backgroundColor = "transparent";
-            // document.getElementById(styleArr[i]).style.color = "white";
+            document.getElementById(styleArr[i]).style.color = "white";
         }
        menuStyle.current.style.backgroundColor = "#F1F6EF";
        menuStyle.current.style.color = "black";
