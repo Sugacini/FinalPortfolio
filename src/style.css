@@ -381,7 +381,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
    color: white;
 }
@@ -442,7 +442,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5em;
+    font-size: 2em;
     border-radius: 10px;
     background-color: transparent;
     border: none;
