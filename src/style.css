@@ -26,7 +26,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
 }
 
@@ -316,7 +316,7 @@ li{
 }
 
 .projectHead{
-    font-size: 5.5em;
+    font-size: 5em;
 }
 
 .projectImg{
@@ -369,7 +369,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     /* border-bottom: 3px solid; */
 }
@@ -410,7 +410,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5em;
+    font-size: 4.5em;
     color: white;
 }
 
@@ -577,5 +577,80 @@ a{
         line-height: 60px;
         padding-left: 10%;
         width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+
+    .homeOuter{
+        width: 100%;
+        height: 950px;
+    }
+
+    .photo{
+        width: 60%;
+        height: 60%;
+    }
+
+    .photoOuter1{
+        font-size: 2em;
+        line-height: 60px;
+        padding: 9% 0 0 10%;
+        width: 95%;
+    }
+
+    .photoOuter{
+        width: 75%;
+    }
+
+    .logoName{
+        font-size: 2em;
+    }
+
+    .menuOuter{
+        font-size: 1.5em;
+    }
+
+    .singleSkillOuter{
+        width: 28%;
+        height: 65px;
+    }
+
+    .skillName{
+        font-size: 1.5em;
+    }
+
+    .skillImage{
+        width: 40px;
+        height: 40px;
+    }
+
+    .skillsHead{
+        font-size: 4.5em;
+    }
+
+    .projectHead{
+        font-size: 4.5em;
+    }
+
+    .project{
+        width: 21%;
+        height: 500px;
+    }
+
+    .otherProjectHead{
+        font-size: 4.5em
+    }
+
+    .contactOuter{
+        height: 100px;
+    }
+
+    .projectName1{
+        font-size: 2.5em;
+    }
+
+    .menu{
+        font-size: 2.3em;
     }
 }
