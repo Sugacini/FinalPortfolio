@@ -35,7 +35,7 @@ function SingleOtherProjects({ text, isVisible }) {
                 </> : text == "Node" ? <>
                     <SingleSkill className="project" image="chat.jpg" className1="projectImg1" text="Chat" className2="projectName1" className3="insideImg" link="https://chat-application-1-ew8x.onrender.com" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="comment.jpeg" className1="projectImg1" text="Interactive Commands" className2="projectName1" className3="insideImg" link="http://localhost:3200/" btnClass="btn1"></SingleSkill>
-                    <SingleSkill className="project" image="planets.png" className1="projectImg1" text="Planets" className2="projectName1" className3="insideImg" link="http://localhost:4000/planet?planetName=Mercury" btnClass="btn1"></SingleSkill>
+                    <SingleSkill className="project" image="planets.png" className1="projectImg1" text="Planets" className2="projectName1" className3="insideImg" link="https://planets-w4uk.onrender.com" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="rock`.jpg" className1="projectImg1" text="Rock Paper Scissors" className2="projectName1" className3="insideImg" link="https://rock-paper-scissors-k35r.onrender.com" btnClass="btn1"></SingleSkill>
                 </> : text == "React" ? <>
                     <SingleSkill className="project" image="logo4.jpg" className1="projectImg1" text="My Project" className2="projectName1" className3="insideImg" btnClass="btn1"></SingleSkill>
