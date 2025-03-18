@@ -24,7 +24,7 @@ function SingleOtherProjects({ text, isVisible }) {
                     <SingleSkill className="project" image="infodazz.png" className1="projectImg1" text="Infodazz" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/finalproject/" btnClass="btn1"></SingleSkill>
                 </> : text == "JavaScript" ? <>
                     <SingleSkill className="project" image="typing.jpg" className1="projectImg1" text="Typing Game" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/JSassignment_025/" btnClass="btn1"></SingleSkill>
-                    <SingleSkill className="project" image="rock`.jpg" className1="projectImg1" text="Rock Paper Scissor" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/JSassignment_023/" btnClass="btn1"></SingleSkill>
+                    <SingleSkill className="project" image="rock`.jpg" className1="projectImg1" text="Rock Paper Scissors" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/JSassignment_023/" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="calc.jpg" className1="projectImg1" text="Calculator" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/JSassignment_021/" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="timer.jpg" className1="projectImg1" text="Timer" className2="projectName1" className3="insideImg" link="https://sugacinil-3357-8443.zcodeusers.in/JSassignment_026/" btnClass="btn1"></SingleSkill>
                 </> : text == "Java" ? <>
@@ -36,7 +36,7 @@ function SingleOtherProjects({ text, isVisible }) {
                     <SingleSkill className="project" image="chat.jpg" className1="projectImg1" text="Chat" className2="projectName1" className3="insideImg" link="https://chat-application-1-ew8x.onrender.com" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="comment.jpeg" className1="projectImg1" text="Interactive Commands" className2="projectName1" className3="insideImg" link="http://localhost:3200/" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="planets.png" className1="projectImg1" text="Planets" className2="projectName1" className3="insideImg" link="http://localhost:4000/planet?planetName=Mercury" btnClass="btn1"></SingleSkill>
-                    <SingleSkill className="project" image="rock`.jpg" className1="projectImg1" text="Rock Paper Scissor" className2="projectName1" className3="insideImg" link="http://localhost:4500/" btnClass="btn1"></SingleSkill>
+                    <SingleSkill className="project" image="rock`.jpg" className1="projectImg1" text="Rock Paper Scissors" className2="projectName1" className3="insideImg" link="http://localhost:4500/" btnClass="btn1"></SingleSkill>
                 </> : text == "React" ? <>
                     <SingleSkill className="project" image="logo4.jpg" className1="projectImg1" text="My Project" className2="projectName1" className3="insideImg" btnClass="btn1"></SingleSkill>
                     <SingleSkill className="project" image="logo4.jpg" className1="projectImg1" text="My Project" className2="projectName1" className3="insideImg" btnClass="btn1"></SingleSkill>
