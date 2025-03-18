@@ -20,12 +20,10 @@ function ProjectHeader() {
     return (
         <>
             <ul className="projectHeaderOuter">
-                <button className="menu" onClick={project} ><Menu menuName="Scratch" id="menu5" className="menuOfProject"></Menu></button>
-                <button className="menu" onClick={project}><Menu menuName="Html/Css" id="menu6" className="menuOfProject"></Menu></button>
-                <button className="menu" onClick={project}><Menu menuName="JavaScript" id="menu7" className="menuOfProject"></Menu></button>
-                {/* <button className="menu" onClick={project}><Menu menuName="Java"></Menu></button> */}
                 <button className="menu" onClick={project}><Menu menuName="Node" id="menu8" className="menuOfProject"></Menu></button>
-                {/* <button className="menu" onClick={project}><Menu menuName="React"></Menu></button> */}
+                <button className="menu" onClick={project}><Menu menuName="JavaScript" id="menu7" className="menuOfProject"></Menu></button>
+                <button className="menu" onClick={project}><Menu menuName="Html/Css" id="menu6" className="menuOfProject"></Menu></button>
+                <button className="menu" onClick={project} ><Menu menuName="Scratch" id="menu5" className="menuOfProject"></Menu></button>
             </ul>
 
             <SingleOtherProjects text={value} isVisible={isVisible}></SingleOtherProjects>
