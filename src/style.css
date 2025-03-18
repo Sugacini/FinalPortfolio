@@ -596,7 +596,7 @@ a{
     .photoOuter1{
         font-size: 1.6em;
         line-height: 60px;
-        width: 70%;
+        width: 66%;
         padding-top: 2%;
     }
 
@@ -654,5 +654,41 @@ a{
 
     .menu{
         font-size: 2.3em;
+    }
+
+    .projectImg1{
+        height: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+
+    body{
+        width: 116%;
+    }
+
+    .menuOuter{
+        display: none;
+    }
+
+    .headerOuter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .homeOuter{
+        width: 100%;
+    }
+
+    .contactOuter{
+        width: 75%;
+    }
+
+    .imageOuter{
+        width: 100%;
     }
 }

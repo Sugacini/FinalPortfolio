@@ -5,7 +5,7 @@ import Menu from "./Menu";
 function Header() {
     return (
         <div className="headerOuter">
-            <Logo name="Sugacini"></Logo>
+            <Logo name="Portfolio"></Logo>
             <ul className="menuOuter">
                 <Menu menuName="Home" link="#home" className="menus" id="menu1"></Menu>
                 <Menu menuName="Skills" link="#skills"  className="menus" id="menu2"></Menu>
