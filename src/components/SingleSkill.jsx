@@ -3,7 +3,8 @@ import Text from "./Text";
 
 function SingleSkill(props) {
     return (
-        (props.className == "project" ? <div className={props.className} style={{ border: `3px solid ${props.color}`, backgroundColor: props.bgColor, borderBottom: `3px solid ${props.borderColor}` }}>
+        (props.className == "project" || props.className== "project1 project" ? <div className={props.className} style={{ border: `3px solid ${props.color}`, backgroundColor: props.bgColor, borderBottom: `3px solid ${props.borderColor}` }}>
+            <div className="language">{props.text1}</div>
             <div className={props.className1}>
                 <Image className={props.className3} image={props.image} />
             </div>
