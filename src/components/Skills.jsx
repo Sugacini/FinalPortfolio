@@ -13,7 +13,7 @@ function Skills() {
                     <SingleSkill className="singleSkillOuter" className1="skillImage" image="node.png" text="NODE" color="#215732" bgColor="rgb(26 87 45 / 14%)" className2="skillName" className3="insideImg"></SingleSkill>
                     <SingleSkill className="singleSkillOuter" className1="skillImage" image="react.png" text="REACT" color="#61DBFB" bgColor="rgb(97 219 251 / 17%)" className2="skillName" className3="insideImg"></SingleSkill>
                     <SingleSkill className="singleSkillOuter" className1="skillImage" image="db.png" text="DATABASE" color="#0082C4" bgColor="rgb(0 130 196 / 25%)" className2="skillName" className3="insideImg"></SingleSkill>
-                    <SingleSkill className="singleSkillOuter" className1="skillImage" image="html&css.jpg" text="LINUX" color="rgb(225 95 184)" bgColor="rgb(225 95 184 / 16%)" className2="skillName" className3="insideImg"></SingleSkill>
+                    <SingleSkill className="singleSkillOuter" className1="skillImage" image="linux.png" text="LINUX" color="rgb(225 95 184)" bgColor="rgb(225 95 184 / 16%)" className2="skillName" className3="insideImg"></SingleSkill>
                 </div>
             </div>
         </div>
