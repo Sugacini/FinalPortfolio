@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "open",sans-serif;
+    font-family: "open", sans-serif;
     /* font-family: "Concert One", sans-serif; */
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.headerOuter{
+.headerOuter {
     width: 100%;
     height: 70px;
     background-color: #19381F;
@@ -21,7 +21,7 @@ html{
     box-shadow: 1px 1px 10px #E2ECDF;
 }
 
-.logoName{
+.logoName {
     width: 20%;
     height: 100%;
     display: flex;
@@ -31,7 +31,7 @@ html{
     color: white;
 }
 
-.menuOuter{
+.menuOuter {
     width: 45%;
     height: 100%;
     display: flex;
@@ -41,7 +41,7 @@ html{
     align-items: center;
 }
 
-a{
+a {
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -55,7 +55,7 @@ li{
     cursor: pointer;
 } */
 
-.homeOuter{
+.homeOuter {
     width: 100%;
     height: 1094px;
     background-color: #E2ECDF;
@@ -64,7 +64,7 @@ li{
     align-items: center;
 }
 
-.photoOuter{
+.photoOuter {
     width: 70%;
     /* height: 20%; */
     display: flex;
@@ -76,7 +76,7 @@ li{
     animation: moveLeftToRight 2s 1 forwards;
 }
 
-.photoOuter2{
+.photoOuter2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -86,7 +86,7 @@ li{
     position: relative;
 }
 
-.photoOuter1{
+.photoOuter1 {
     font-size: 1.5em;
     width: 55%;
     /* height: 16%; */
@@ -104,23 +104,25 @@ li{
     0% {
         transform: translateX(-800px);
     }
+
     100% {
-        transform: translateX(100px); 
+        transform: translateX(100px);
     }
-  }
+}
 
 
 @keyframes moveLeftToRight1 {
     0% {
         transform: translateX(-800px);
     }
+
     100% {
         color: grey;
-        transform: translateX(100px); 
+        transform: translateX(100px);
     }
-  }
+}
 
-.imageOuter{
+.imageOuter {
     width: 50%;
     height: 85%;
     display: flex;
@@ -134,13 +136,14 @@ li{
     0% {
         transform: translateX(800px);
     }
+
     100% {
         color: grey;
-        transform: translateX(-100px); 
+        transform: translateX(-100px);
     }
-  }
+}
 
-.photo{
+.photo {
     width: 57%;
     height: 60%;
     border-radius: 50%;
@@ -151,7 +154,7 @@ li{
 
 
 
-.skillsOuter{
+.skillsOuter {
     width: 100%;
     height: 700px;
     background-color: #19381F;
@@ -160,7 +163,7 @@ li{
     align-items: center;
 }
 
-.skillsInner{
+.skillsInner {
     width: 95%;
     height: 80%;
     border-radius: 10px;
@@ -169,7 +172,7 @@ li{
     overflow: hidden;
 }
 
-.skillsHead{
+.skillsHead {
     position: relative;
     width: 30%;
     height: 100%;
@@ -187,13 +190,15 @@ li{
 
 @keyframes typing {
     from {
-      width: 0;
+        width: 0;
     }
+
     to {
-      width: 700px;
+        width: 700px;
     }
-  }
-.skill1{
+}
+
+.skill1 {
     width: 70%;
     height: 100%;
     display: flex;
@@ -205,7 +210,7 @@ li{
     padding: 4%;
 }
 
-.singleSkillOuter{
+.singleSkillOuter {
     width: 23%;
     height: 75px;
     border-radius: 50px;
@@ -215,14 +220,14 @@ li{
     padding: 2%;
 }
 
-.skillImage{
+.skillImage {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     position: relative;
 }
 
-.skillName{
+.skillName {
     width: 65%;
     display: flex;
     justify-content: flex-start;
@@ -236,7 +241,7 @@ li{
 
 
 
-.projectOuter{
+.projectOuter {
     width: 100%;
     height: 850px;
     background-color: #E2ECDF;
@@ -247,7 +252,7 @@ li{
     align-items: center;
 }
 
-.latestproject{
+.latestproject {
     width: 90%;
     height: 550px;
     display: flex;
@@ -255,7 +260,7 @@ li{
     align-items: center;
 }
 
-.project{
+.project {
     width: 17%;
     height: 100%;
     border-radius: 200px 200px 0 0;
@@ -264,7 +269,7 @@ li{
     justify-content: space-between;
 }
 
-.btn{
+.btn {
     width: 70%;
     height: 50px;
     border: 1px solid;
@@ -280,17 +285,17 @@ li{
     opacity: 0;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #204e2a;
     color: white;
     border: none;
 }
 
-.project:hover .btn{
+.project:hover .btn {
     opacity: 1;
 }
 
-.btn1{
+.btn1 {
     width: 70%;
     height: 50px;
     border: 1px solid;
@@ -307,21 +312,21 @@ li{
     opacity: 0;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: #E2ECDF;
     color: black;
     border: none;
 }
 
-.project:hover .btn1{
+.project:hover .btn1 {
     opacity: 1;
 }
 
-.projectHead{
+.projectHead {
     font-size: 4em;
 }
 
-.projectImg{
+.projectImg {
     width: 100%;
     height: 65%;
     position: relative;
@@ -329,7 +334,7 @@ li{
     box-shadow: 5px 5px 8px grey;
 }
 
-.projectImg1{
+.projectImg1 {
     width: 100%;
     height: 65%;
     /* border: 1px solid white; */
@@ -348,13 +353,13 @@ li{
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-  
+
 .scroll-image.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-.insideImg{
+.insideImg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -365,7 +370,7 @@ li{
     scale: 1.04;
 } */
 
-.projectName{
+.projectName {
     width: 108%;
     height: 35%;
     display: flex;
@@ -376,7 +381,7 @@ li{
     /* border-bottom: 3px solid; */
 }
 
-.projectName1{
+.projectName1 {
     width: 108%;
     height: 35%;
     display: flex;
@@ -384,10 +389,10 @@ li{
     align-items: center;
     font-size: 2em;
     text-align: center;
-   color: white;
+    color: white;
 }
 
-a{
+a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -395,7 +400,7 @@ a{
 
 
 
-.otherProjectOuter{
+.otherProjectOuter {
     width: 100%;
     height: 970px;
     background-color: #19381F;
@@ -406,7 +411,7 @@ a{
     align-items: center;
 }
 
-.otherProjectHead{
+.otherProjectHead {
     width: 90%;
     height: 100px;
     display: flex;
@@ -416,7 +421,7 @@ a{
     color: white;
 }
 
-.otherProjectInner{
+.otherProjectInner {
     width: 95%;
     height: 550px;
     display: flex;
@@ -426,7 +431,7 @@ a{
     /* flex-wrap: wrap; */
 }
 
-.projectHeaderOuter{
+.projectHeaderOuter {
     width: 80%;
     height: 80px;
     display: flex;
@@ -437,7 +442,7 @@ a{
     box-shadow: 0px 0px 8px rgb(93, 234, 93);
 }
 
-.menu{
+.menu {
     width: 15%;
     height: 65%;
     display: flex;
@@ -449,38 +454,38 @@ a{
     border: none;
 }
 
-.menu:hover{
+.menu:hover {
     background-color: #E2ECDF;
 }
 
-.menu:hover .menuOfProject{
+.menu:hover .menuOfProject {
     color: black;
 }
 
-.menus{
+.menus {
     width: 160px;
     height: 40px;
 }
 
-.menus:hover{
+.menus:hover {
     color: black;
     background-color: #E2ECDF;
     border-radius: 10px;
 }
 
-.menuOfProject{
+.menuOfProject {
     width: 100%;
     height: 100%;
 }
 
-.menu:hover .menuOfProject{
+.menu:hover .menuOfProject {
     color: black;
 }
 
 
 
 
-.contactOuter{
+.contactOuter {
     width: 100%;
     height: 90px;
     background-color: #F1F6EF;
@@ -489,7 +494,7 @@ a{
     align-items: center;
 }
 
-.contactInner{
+.contactInner {
     width: 56%;
     height: 80%;
     display: flex;
@@ -497,16 +502,16 @@ a{
     align-items: center;
 }
 
-.contactText{
+.contactText {
     font-size: 3em;
 }
 
-.contact{
+.contact {
     width: 27%;
     height: 70%;
 }
 
-.contact1{
+.contact1 {
     width: 100%;
     height: 40%;
     display: flex;
@@ -515,7 +520,7 @@ a{
     column-gap: 1%;
 }
 
-.contact2{
+.contact2 {
     width: 100%;
     height: 40%;
     display: flex;
@@ -525,39 +530,39 @@ a{
     padding-left: 1%;
 }
 
-.skillImage1{
+.skillImage1 {
     width: 80px;
     height: 40px;
     border-radius: 50%;
     position: relative;
 }
 
-.skillImage2{
+.skillImage2 {
     width: 60px;
     height: 55px;
     border-radius: 50%;
     position: relative;
 }
 
-.insideImg1{
+.insideImg1 {
     width: 100%;
     height: 100%;
 }
 
-.insideTxt{
+.insideTxt {
     font-size: 1.5em;
 }
 
 
 
 
-.decorate{
+.decorate {
     position: absolute;
     height: 40%;
     left: 22%;
 }
 
-.decorate1{
+.decorate1 {
     position: absolute;
     height: 40%;
     left: 67%;
@@ -568,13 +573,13 @@ a{
 
 
 
-@media only screen and (min-width: 2560px){
-    .photo{
+@media only screen and (min-width: 2560px) {
+    .photo {
         width: 47%;
         height: 57%;
     }
 
-    .photoOuter1{
+    .photoOuter1 {
         font-size: 2.5em;
         line-height: 60px;
         padding-left: 10%;
@@ -582,146 +587,229 @@ a{
     }
 }
 
-@media only screen and (max-width: 1550px){
+@media only screen and (max-width: 1550px) {
 
-    .homeOuter{
+    .homeOuter {
         width: 100%;
         height: 950px;
     }
 
-    .photo{
+    .photo {
         width: 60%;
         height: 60%;
     }
 
-    .photoOuter1{
+    .photoOuter1 {
         font-size: 1.6em;
         line-height: 60px;
         width: 66%;
         padding-top: 2%;
     }
 
-    .photoOuter{
+    .photoOuter {
         width: 70%;
         font-size: 4em;
     }
 
-    .logoName{
+    .logoName {
         font-size: 2em;
     }
 
-    .menuOuter{
+    .menuOuter {
         font-size: 1.5em;
     }
 
-    .singleSkillOuter{
+    .singleSkillOuter {
         width: 28%;
         height: 65px;
     }
 
-    .skillName{
+    .skillName {
         font-size: 1.5em;
     }
 
-    .skillImage{
+    .skillImage {
         width: 40px;
         height: 40px;
     }
 
-    .skillsHead{
+    .skillsHead {
         font-size: 4.5em;
     }
 
-    .projectHead{
+    .projectHead {
         font-size: 4.5em;
     }
 
-    .project{
+    .project {
         width: 21%;
         height: 500px;
     }
 
-    .otherProjectHead{
+    .otherProjectHead {
         font-size: 4.5em
     }
 
-    .contactOuter{
+    .contactOuter {
         height: 100px;
     }
 
-    .projectName1{
+    .projectName1 {
         font-size: 2.5em;
     }
 
-    .menu{
+    .menu {
         font-size: 2.3em;
     }
 
-    .projectImg1{
+    .projectImg1 {
         height: 60%;
     }
 }
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
 
-    body{
+    body {
         width: 116%;
     }
 
-    .menuOuter{
+    .menuOuter {
         display: none;
     }
 
-    .headerOuter{
-        width: 80%;
+    .headerOuter {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1.5em;
     }
 
-    .homeOuter{
-        width: 86%;
+    .homeOuter {
+        width: 104%;
         flex-direction: column;
         height: 790px;
     }
 
-    .contactOuter{
+    .contactOuter {
         width: 75%;
     }
 
-    .imageOuter{
-        width: 100%;
+    .imageOuter {
+        width: 106%;
         position: absolute;
         top: -16%;
-        left: 31%;    
+        left: 38%;
+        height: 70%;
     }
 
-    .photoOuter{
+    .photoOuter {
         font-size: 2em;
         width: 100%;
     }
 
-    .photo{
-        width: 68%;
-        height: 26%;
+    .photo {
+        width: 100%;
+        height: 57%;
+        position: absolute;
+        top: 35%;
     }
 
-    .photoOuter2{
-        width: 100%;
+    .photoOuter2 {
+        width: 110%;
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: -33%;
     }
 
-    .photoOuter1{
-        width: 81%;
+    .photoOuter1 {
+        width: 76%;
         font-size: 1.3em;
         line-height: 40px;
     }
 
-    .skillsOuter{
+    .skillsOuter {
+        flex-direction: column;
+        width: 104%;
+        height: 1200px;
+    }
+
+    .skillsInner {
+        flex-direction: column;
+    }
+
+    .skillsHead {
+        width: 100%;
+        height: 95px;
+        border: none;
+        font-size: 3em;
+        padding-bottom: 10%;
+    }
+
+    .skill1 {
+        width: 100%;
+        padding: 0;
+        row-gap: 5%;
+    }
+
+    .singleSkillOuter {
+        width: 90%;
+    }
+
+    .projectOuter {
+        width: 104%;
+        height: 2000px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .projectHead {
+        font-size: 3em;
+        padding-top: 15%;
+    }
+
+    .latestproject {
+        width: 100%;
+        flex-direction: column;
+        height: 85%;
+        position: absolute;
+        top: 11%;
+        row-gap: 4%;
+    }
+
+    .project {
+        width: 75%;
+        height: 400px;
+    }
+
+    .projectImg {
+        width: 100%;
+        height: 500px;
+    }
+
+    .otherProjectOuter {
+        width: 104%;
+        height: 1800px;
+    }
+
+    .otherProjectHead {
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .projectHeaderOuter {
+        width: 95%;
+    }
+
+    .menu {
+        font-size: 1.1em;
+    }
+
+    .otherProjectInner {
+        width: 100%;
+        height: 2000px;
+        justify-content: center;
         flex-direction: column;
     }
 }
